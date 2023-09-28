@@ -1,12 +1,31 @@
+body{
+    margin: 0;
+}
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-image:url(chris-ried-ieic5tq8ymk-unsplash.jpg) ;
+        top: 0;
+         width: 100%;
+         position: fixed;
+}
+header img{
+    border-radius: 50%;
+    width: 10rem;
+    height: 12rem;
 }
 header ul{
     display: flex;
     list-style-type: none;
 }
+header nav {
+    justify-content: space-between;
+}
 header nav a{
-    text-decoration: none;
-   
+    text-decoration: none; 
+}
+header div{
+    color: white;
+    text-align: center;
+    text-shadow: 2px;
 }
